@@ -25,6 +25,7 @@ export function dummyData() {
  * You might need to change the signature of this function.
  *
  */
+// gradeTable
 export const GradeTable: React.FC<gradeTable> = ({ studentGrades, classes, classAssignments }) => {
   const [finalGrades, setFinalGrades] = useState<{ studentId: string; finalGrade?: number }[]>([]);
 
