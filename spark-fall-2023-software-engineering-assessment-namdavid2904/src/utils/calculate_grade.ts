@@ -14,6 +14,7 @@ import { IUniversityClass, IUniversityClassAssignments } from "../types/api_type
  * 
  * If you are reading here and you haven't read the top of the file...go back.
  */
+// function to calculate student's final grade
 export async function calculateStudentFinalGrade(
   studentID: string,
   studentGrades: {[key:string]:number},
