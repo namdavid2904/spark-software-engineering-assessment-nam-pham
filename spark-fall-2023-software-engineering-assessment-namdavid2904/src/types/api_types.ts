@@ -9,6 +9,7 @@ import { Assignment } from './../../node_modules/@mui/icons-material/index.d';
 /**
  * This represents a class as returned by the API
  */
+// update types and interfaces for data received from API
 export interface IUniversityClass {
   classId: string;
   title: string;
