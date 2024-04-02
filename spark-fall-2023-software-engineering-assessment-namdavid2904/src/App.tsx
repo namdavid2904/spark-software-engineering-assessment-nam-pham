@@ -5,6 +5,7 @@ import { SelectChangeEvent } from "@mui/material/Select";
 /**
  * You will find globals from this file useful!
  */
+// fetch data from API
 import { GradeTable } from "./components/GradeTable";
 import { MY_BU_ID, BASE_API_URL, TOKEN, GET_DEFAULT_HEADERS } from "./globals";
 import { IUniversityClass, IUniversityStudentGrades, IUniversityClassAssignments } from "./types/api_types";
